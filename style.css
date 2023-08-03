@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   
+    background: linear-gradient(
+        to bottom,
+         #f0f0f0  0%, 
+         #f0f0f0 60% ,
+         #cb3931 60%,
+         #cb3931 100%
+    );
+}
+
+.main{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 1px 1px 13px 1px #aaaaaa;
+}
+
+.portfolio{
+    height: 100%;
+    margin-left: 10%;
+}
+
+.objective{
+  
+}
+
+.profile-pic{
+
+}
+
+
+.div1, .div2 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top; /* Optional, to align divs at the top of the line */
+}
+
+.div1 {
+    height: 10%;
+    background-color: white;
+    padding-top: 10%;
+    float: left;
+
+}
+
+.div2 {
+    float: left;
+    position: absolute;
+    background-color: #ce4137;
+    width: 30%;
+    height: 35%;
+;
+}
+
+
+.d1, .d2 {
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top; /* Optional, to align divs at the top of the line */
+}
+
+.d1 {
+
+    /position: absolute;/
+    float: left;
+    margin-left: 15%;
+    width: 50%;
+}
+
+.d2 {
+    float: left;
+    width: 35%;
+
+}
